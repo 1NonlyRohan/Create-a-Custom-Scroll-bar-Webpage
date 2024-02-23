@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(58, 57, 57);
+}
+
+.navbar {
+    margin-left: 12%;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    margin-top: 50px;
+}
+
+.navbar li a {
+    color: rgb(126, 122, 122);
+    padding-left: 165px;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Kode Mono;
+    font-weight: 900;
+}
+
+.navbar li a:hover {
+    color: crimson;
+    transition: 0.5s;
+}
+
+.border-line {
+    border-bottom: 2px solid white;
+    padding-top: 120px;
+    margin-left: 280px;
+    margin-right: 280px;
+    cursor: pointer;
+}
+
+.heading1 {
+    margin: 60px 280px 60px 280px;
+    background-color: firebrick;
+    border-radius: 8px;
+}
+
+.heading1 h2 {
+    color: black;
+    font-size: 30px;
+    font-family: cinzel;
+    padding: 30px;
+}
+
+.heading2 {
+    margin: 60px 280px 60px 280px;
+    background-color: firebrick;
+    border-radius: 8px;
+}
+
+.heading2 h2 {
+    color: black;
+    font-size: 30px;
+    font-family: cinzel;
+    padding: 30px;
+}
+
+.heading3 {
+    margin: 60px 280px 60px 280px;
+    background-color: firebrick;
+    border-radius: 8px;
+}
+
+.heading3 h2 {
+    color: black;
+    font-size: 30px;
+    font-family: cinzel;
+    padding: 30px;
+}
+
+
+.heading4 {
+    margin: 60px 280px 60px 280px;
+    background-color: firebrick;
+    border-radius: 8px;
+}
+
+.heading4 h2 {
+    color: black;
+    font-size: 30px;
+    font-family: cinzel;
+    padding: 30px;
+}
+
+.heading5 {
+    margin: 60px 280px 60px 280px;
+    background-color: firebrick;
+    border-radius: 8px;
+}
+
+.heading5 h2 {
+    color: black;
+    font-size: 30px;
+    font-family: cinzel;
+    padding: 30px;
+}
+
+.heading1 li {
+    padding: 10px 20px 40px 30px;
+}
+
+.heading1 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: monospace;
+}
+
+.heading1 li a:hover {
+    color: rgb(240, 13, 240);
+    transition: 0.5s;
+}
+
+.heading2 p {
+    color: white;
+    padding: 10px 20px 40px 30px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: monospace;
+}
+
+.heading3 p {
+    color: white;
+    padding: 10px 20px 40px 30px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: monospace;
+}
+
+.heading4 li {
+    color: white;
+    padding: 10px 20px 40px 30px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: monospace;
+}
+
+.form-control {
+    padding: 10px 10px 100px 580px;
+}
+
+.form #text {
+    background-color: rgb(103, 120, 150);
+    padding: 6px;
+    width: 40%;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid grey;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+}
+
+#btn {
+    width: 42%;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: black;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: cinzel;
+}
+
+#btn a:hover {
+    color: grey;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: rgb(124, 196, 52);
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 40px;
+    border: 3px solid #0ef;
+}
+
